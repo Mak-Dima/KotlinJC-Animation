@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             KotlinJCAnimationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TransitionAnimation(innerPadding = innerPadding)
+                    AnimateAsState(innerPadding = innerPadding)
                 }
             }
         }
